@@ -1,0 +1,426 @@
+html {
+    background-color: black;
+    background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+}
+
+img {
+    width: 150px;
+    height: 50px;
+}
+
+.container1 {
+    padding-bottom: 30px;
+}
+
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 1em 1em 8em 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+input {
+    flex-direction: row;
+    text-align: left;
+    color: white;
+    padding: 1rem 10rem 1rem 0;
+    font-size: medium;
+    background-color: rgba(138, 139, 140, 0.56);
+    border: 1px;
+}
+
+#signIn2 {
+    color: white;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px 20px 20px;
+    border: none;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+.check {
+    display: inline;
+    width: 90px;
+    text-align: right;
+    visibility: visible;
+    color: #a2a2a2;
+    font-family: sans-serif;
+}
+
+.mail {
+    display: inline;
+    width: 90px;
+    text-align: right;
+    visibility: hidden;
+}
+
+.pass {
+    display: inline;
+    width: 90px;
+    text-align: right;
+    visibility: hidden;
+}
+
+#checkbox_id {
+    margin-left: 20px;
+}
+
+a {
+    color: #a2a2a2a2;
+    margin-left: 75px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.buttonsign {
+    margin: 20px 20px 10px 0;
+    font-family: Roboto, sans-serif;
+    font-size: x-large;
+    background-color: #e80a37;
+    color: #f0efeb;
+    padding: 1rem 7.5rem 1rem 7.5rem;
+    text-align: right;
+    border-radius: 3px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.new {
+    color: #a2a2a2;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+.reCAPTCHA {
+    color: #a2a2a2;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.subscription {
+    margin-left: 0;
+    color: white;
+}
+
+.more {
+    margin-left: 0;
+    color: dodgerblue;
+}
+
+.question {
+    width: 375px;
+    right: 40%;
+    left: 30%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    background-color: rgba(0, 0, 0, 0.75);
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer123 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    min-height: 50px;
+    background-color: transparent;
+
+}
+
+.footer .flex1 {
+    color: #999;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 17px;
+    min-height: 30px;
+
+}
+
+.footer .flex1 {
+    align-self: flex-start;
+    padding-right: 550px;
+}
+
+.footer {
+    align-self: flex-start;
+    padding-right: 550px;
+}
+
+.list1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    align-self: center;
+    justify-content: center;
+    min-height: 50px;
+    font-size: 13px;
+    padding: 0 50px;
+    text-align: left;
+}
+
+.list1 li {
+    font-size: 13px;
+    margin: 7px -10px;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    align-self: flex-start;
+    justify-content: center;
+}
+
+.list1 li a {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+li a {
+    font-size: 13px;
+    text-align: left;
+    color: #999;
+}
+
+@media all and (max-width: 1200px) {
+    html {
+        background-color: black;
+        background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+    }
+
+    img {
+        width: 150px;
+        height: 50px;
+    }
+
+    .container1 {
+        padding-bottom: 30px;
+    }
+
+
+    form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 1em 1em 8em 1em;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    input {
+        flex-direction: row;
+        text-align: left;
+        color: white;
+        padding: 1rem 10rem 1rem 0;
+        font-size: medium;
+        background-color: rgba(138, 139, 140, 0.56);
+        border: 1px;
+    }
+
+    #signIn2 {
+        color: white;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 20px 20px 20px;
+        border: none;
+    }
+
+    form li + li {
+        margin-top: 1em;
+    }
+
+    .check {
+        display: inline;
+        width: 90px;
+        text-align: right;
+        visibility: visible;
+        color: #a2a2a2;
+        font-family: sans-serif;
+    }
+
+    .mail {
+        display: inline;
+        width: 90px;
+        text-align: right;
+        visibility: hidden;
+    }
+
+    .pass {
+        display: inline;
+        width: 90px;
+        text-align: right;
+        visibility: hidden;
+    }
+
+    #checkbox_id {
+        margin-left: 20px;
+    }
+
+    a {
+        color: #a2a2a2a2;
+        margin-left: 75px;
+        font-family: sans-serif;
+        font-size: medium;
+    }
+
+    .buttonsign {
+        margin: 20px 20px 10px 0;
+        font-family: Roboto, sans-serif;
+        font-size: x-large;
+        background-color: #e80a37;
+        color: #f0efeb;
+        padding: 1rem 7.5rem 1rem 7.5rem;
+        text-align: right;
+        border-radius: 3px;
+        border: none;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .new {
+        color: #a2a2a2;
+        margin-left: 20px;
+        font-family: sans-serif;
+        font-size: medium;
+    }
+
+    .reCAPTCHA {
+        color: #a2a2a2;
+        margin-left: 20px;
+        font-family: sans-serif;
+        font-size: small;
+    }
+
+    .subscription {
+        margin-left: 0;
+        color: white;
+    }
+
+    .more {
+        margin-left: 0;
+        color: dodgerblue;
+    }
+
+    .question {
+        width: 100%;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        min-height: 300px;
+        background-color: rgba(0, 0, 0, 0.75);
+        margin-top: 10px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+    }
+
+    .footer123 {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        min-height: 50px;
+        background-color: transparent;
+
+    }
+
+    .footer .flex1 {
+        color: #999;
+        width: 100%;
+        justify-content: space-around;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 17px;
+        min-height: 30px;
+
+    }
+
+    .footer .flex1 {
+        align-self: flex-start;
+        padding-right: 550px;
+    }
+
+    .footer {
+        align-self: flex-start;
+        padding-right: 550px;
+    }
+
+    .list1 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-items: flex-start;
+        align-self: center;
+        justify-content: center;
+        min-height: 50px;
+        font-size: 13px;
+        padding: 0 50px;
+        text-align: left;
+    }
+
+    .list1 li {
+        font-size: 13px;
+        margin: 7px -10px;
+        list-style-type: none;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-items: center;
+        align-self: flex-start;
+        justify-content: center;
+    }
+
+    .list1 li a {
+        color: #999;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    li a {
+        font-size: 13px;
+        text-align: center;
+        color: #999;
+    }
+}

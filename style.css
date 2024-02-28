@@ -1,162 +1,292 @@
-header {
-    background-color: #000000;
-    display: flex;
-
-
+html{
+    background-color: black;
+    background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
 }
+
+img {
+    width: 150px;
+    height: 50px;
+}
+
+.menu {
+    float: right;
+    margin-right: 120px;
+    display: inline-flex;
+}
+
+.signIn{
+    float: inherit;
+}
+
+.languages {
+    background-color: rgba(52, 52, 52, 0.75);
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    cursor: default;
+    font-family: Roboto, sans-serif;
+}
+
+.languages:hover{
+    background-color: rgba(52, 52, 52, 0.75);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 280px;
+}
+
+.dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    font-family: Roboto, sans-serif;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+
+.dropdown-content a:hover {
+    background-color: #707070;
+    color: white;
+}
+
+.show {
+    display:block;
+}
+
+.sign {
+    position: relative;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.signIn {
+    margin-left: 30px;
+    font-family: Roboto, sans-serif;
+    padding: 14px;
+    font-size: 18px;
+}
+
+#movies {
+    font-family: 'Roboto', sans-serif;
+    font-weight : 700;
+    font-size : 4rem;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+}
+
+#one{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align:center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 1.2rem;
+    font-weight: 350;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-right:130px;
+}
+
+label{
+    visibility: hidden;
+}
+
+input {
+    flex-direction: row;
+    text-align: left;
+    color: white;
+    padding: 1rem 10rem 1rem 0;
+    font-size: medium;
+    background-color: rgba(138, 139, 140, 0.56);
+    border: solid 1px floralwhite;
+}
+
+button{
+    font-size: x-large;
+    background-color: #e80a37;
+    color: #f0efeb;
+    padding: 0.65rem 2.5rem 0.95rem 2.5rem;
+    text-align: right;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a91031;
+}
+
+@media all and (max-width: 480px)
+{
+html {
+    background-color: black;
+    background-image: url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+}
+
 
 #logo {
-    width: 175px;
-    height: 175px;
-    padding-left: 850px;
-}
-
-#log {
-    border-radius: 15px;
-    border: solid;
-    height: 35px;
-    width: 125px;
-    margin-left: 720px;
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-
-
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: "Oswald", sans-serif;
-}
-
-
-nav ul {
-    list-style-type: none;
-}
-
-nav li {
-    float: left;
-}
-
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav li {
-    float: left;
-    width: 25%;
-    text-align: center;
-}
-
-nav {
-    width: 100%;
-    margin: 0 auto;
-    position: sticky;
-    top: 0px;
-}
-
-nav a{
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0;
-    background-color: #000000;
-}
-
-nav a:hover{
-    border-bottom: 2px solid rgba(145, 65, 206, 0.91);
-
-}
-
-.inline {
-    flex-wrap:nowrap;
-    display:flex;
-
-}
-
-.left-align {
-    width: 450px;
-    height: 450px;
-    padding-left: 30px;
-    padding-top: 250px;
-    padding-right: 30px;
-    margin-bottom: 75px;
-
-}
-
-h1 {
-    padding-top: 200px;
+    display: inline;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
     font-size: xx-large;
+    padding: 25px;
+    margin-left: 250px;
+    cursor: default;
+}
+
+
+.languages {
+    background-color: rgba(52, 52, 52, 0.75);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    cursor: default;
+    font-family: Roboto, sans-serif;
+
 
 }
 
-.right-align {
-    text-align: justify;
-    padding: 30px;
-    margin-top: 100px;
-    margin-right: 150px;
-    margin-bottom: 150px;
-    font-size: x-large;
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 400px;
+
 
 }
 
-footer {
-    background-color: #000000;
-    color: #ffffff;
-    padding-top: 50px;
-
+.dropdown-content {
+    display: none;
+    position: sticky;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    font-family: Roboto, sans-serif;
 }
-#copyright{
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #707070;
+    color: white;
+}
+
+
+.show {
+    display: block;
+}
+
+.sign {
+    position: relative;
+    display: inline-block;
     justify-content: flex-end;
-    margin-left: 20px;
 
 }
-.container2 {
-    display: flex;
-    padding-top: 10px;
+
+#movies {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#one {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: 350;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-right: 130px;
+}
+
+label {
+    visibility: hidden;
+}
+
+input {
+    flex-direction: row;
+    text-align: left;
+    color: white;
+    padding: 1rem 10rem 1rem 0;
+    font-size: medium;
+    background-color: rgba(138, 139, 140, 0.56);
+    border: solid 1px floralwhite;
+
+}
+
+
+button {
+    font-size: x-large;
+    background-color: #e80a37;
+    color: #f0efeb;
+    padding: 0.65rem 2.5rem 0.95rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
     justify-content: center;
-
+    cursor: pointer;
 }
-
-.button-insta {
-    padding: 5px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight:bold;
-    letter-spacing: 5px;
-    font-size: 20px;
-    border-radius: 50px;
-    color: #fff;
-    background: radial-gradient(circle at 10% 280%,
-    #fdf497 0%,
-    #fdf497 17%,
-    #fd5949 45%,
-    #d6249f 70%,
-    #6801a3 95%);
-    margin-top: 0;
-    margin-left: 10px;
-
-}
-
-.twitter-button {
-    margin-bottom: 0;
-   padding: 5px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight:bold;
-    letter-spacing: 5px;
-    font-size: 20px;
-    border-radius: 50px;
-    color: #fff;
-    background: radial-gradient(circle at 10% 280%,
-    #e7e6e1 0%,
-    rgba(102, 103, 105, 0.89) 17%,
-    #2c2c2a 45%,
-    #1c1b1c 70%,
-    #0d0d0e 95%);
 
 }
