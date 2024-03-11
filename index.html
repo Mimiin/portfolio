@@ -1,61 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Accueil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Netflix US - Watch unlimited movies and series </title>
+
+    <script src="scripts.js"></script>
 </head>
+<body>
 <header>
 
-    <a href="index.html">
-        <img id="logo" src="Eve.jpg" alt="logo">
-    </a>
-
-    <a href="Administration/connexion.php"> <button id="log">Connexion</button></a>
+   <div class="container1">
+       <img src="Netflix_Logo_RGB.png" alt="logo netflix" >
+       <div class="menu">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="languages"> &#x2699; Languages &#9660; </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#">English</a>
+            <a href="#">Français</a>
+        </div>
+        <div class="sign">
+        <button class="signIn" onclick="window.location.href ='signIn.html';" >Sign In</button>
+    </div>
+    </div>
+    </div>
+    </div>
 </header>
-<body>
-<nav>
-    <ul >
-    <li><a class="waves-effect waves-light btn-large" href="Illustration.html" class="btn waves-effect wave-purple">Illustrations</a></li>
-    <li><a class="waves-effect waves-light btn-large" href="Architecture.html" class="btn waves-effect wave-purple">Architecture</a></li>
-    <li><a class="waves-effect waves-light btn-large" href="Perspectives.html" class="btn waves-effect wave-purple">Perspectives</a></li>
-    <li><a class="waves-effect waves-light btn-large" href="Contact.html" class="btn waves-effect wave-purple">Contact</a></li>
-    </ul>
-</nav>
-<div class="inline">
 
-    <img class="left-align" src="PhotoEveCoston-modified.png" alt="Photo de Eve Coston">
-    <h1> <span style="color:blueviolet">E</span>ve Coston : <span style="color:deeppink">A</span>rchitecte, <span style="color:blue">I</span>llustratrice et <span style="color:darkorange">E</span>ntrepreneuse <span style="color:lawngreen">E</span>ngagée</h1>
-    <p class="right-align"> Eve Coston, architecte de formation, illustratrice émérite et
-        entrepreneure dynamique, occupe le poste de présidente du Ponyo Café Vélo à Villeurbanne. <br> <br>
-        Son parcours diversifié est le reflet de son engagement envers l'innovation et la créativité.
-        En tant qu'architecte, Eve a démontré sa maîtrise technique en concevant des espaces uniques au Ponyo Café Vélo.
-        Sa vision créative s'étend au-delà des structures physiques, contribuant à créer une atmosphère accueillante
-        et inspirante. En parallèle, Eve excelle en tant qu'illustratrice, insufflant vie et émotion
-        à travers ses œuvres captivantes. <br> <br> Le site dédié à Eve Coston au Ponyo Café Vélo met en avant
-        ses compétences artistiques variées, offrant un espace où la beauté de ses illustrations rencontre l'ingéniosité
-        de ses conceptions architecturales. <br><br> Au-delà de son rôle d'architecte et d'illustratrice, Eve est également
-        une entrepreneuse passionnée. En tant que présidente du Ponyo Café Vélo, elle a transformé l'espace
-        en un lieu de rassemblement dynamique, favorisant l'échange et la collaboration au sein de la communauté.<br>
-        La polyvalence de son parcours, de l'architecture à l'illustration et à l'entrepreneuriat, témoigne
-        de son approche holistique du travail. <br><br> Eve Coston incarne une vision moderne de la créativité et de l'entreprise,
-        combinant compétences techniques et artistiques pour construire des projets innovants et inclusifs.</p>
-
-
-    </div>
+<main>
+<div>
+<br> <h1 id="movies"> Unlimited movies, TV <br> shows, and more.</h1>
+<p id="one">Watch anywhere. Cancel anytime.</p>
+<p>Ready to watch? Enter your email to create or restart your membership.</p>
 </div>
+<div class="container">
+    <label for="email">E-mail address</label>
+    <input type="email" name="email" id="email" placeholder="  Enter your e-mail">
+    <button class="Start"><strong> Get Started  &#8250 </strong> </button>
 
+</div>
+</main>
 </body>
-<footer>
-
-    <div class="container2">
-
-   <a href="https://twitter.com/Ponyocafevelo" class="twitter-button" data-show-count="false">Twitter - X</a> <br>
-    <br>
-    <a href="https://www.instagram.com/ponyo_cafe_velo/?hl=fr" class= "button-insta"> Instagram</a>
-    </div>
-    <p id="copyright">&#xa9 2024 - Tous droits réservés</p>
-</footer>
 </html>
+
+
+
