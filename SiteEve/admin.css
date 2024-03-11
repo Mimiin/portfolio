@@ -1,0 +1,30 @@
+html{
+    background-color: white;
+}
+
+form {
+    border: solid 3px;
+    padding: 50px;
+    margin: 100px;
+}
+
+input {
+    color: black;
+    border: solid 1px grey;
+    height: 50px;
+    width: 350px;
+
+}
+
+#mdp {
+    margin-top: 20px;
+}
+
+
+#email {
+    margin-bottom: 20px;
+}
+
+#password {
+    margin-bottom: 15px;
+}
