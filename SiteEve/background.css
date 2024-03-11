@@ -1,0 +1,19 @@
+body {
+    margin: 0 auto;
+}
+
+section {
+    width: 80%;
+    height: 800px;
+    background-image: url("https://images.unsplash.com/photo-1682695799561-033f55f75b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: Sacramento, cursive;
+
+}
