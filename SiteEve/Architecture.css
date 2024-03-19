@@ -1,0 +1,198 @@
+
+    html {
+        background-color: black;
+        font-family: "Oswald", sans-serif;
+        font-size: xx-large;
+        color: white;
+    }
+
+    header {
+        display: flex;
+    }
+
+    #logo {
+        width: 175px;
+        height: 175px;
+        padding-left: 850px;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Oswald", sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav ul::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    nav li {
+        float: left;
+        width: 25%;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0 auto;
+        position: sticky;
+        top: 0px;
+    }
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        border-bottom: 2px solid transparent;
+        padding: 10px 0;
+        background-color: #000000;
+    }
+
+    nav a:hover {
+        border-bottom: 2px solid rgba(145, 65, 206, 0.91);
+
+    }
+
+    .inline {
+        flex-wrap: nowrap;
+        display: flex;
+
+    }
+
+    .left-align {
+        width: 450px;
+        height: 450px;
+        padding-left: 30px;
+        padding-top: 250px;
+        padding-right: 30px;
+        margin-bottom: 75px;
+
+    }
+
+    section h1 {
+        transition: margin-left 3s;
+        margin-top: 50px;
+        margin-left: 205px;
+        padding-bottom: 40px;
+    }
+
+    section:hover h1 {
+        margin-left: 500px;
+    }
+
+    #competition {
+        font-size: large;
+        background-color: white;
+        color: black;
+        margin-right: 1116px;
+        margin-left: 209px;
+        margin-top: 15px;
+    }
+
+    .img1 {
+        height: 580px;
+        width: 580px;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+
+    .flex-container {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        -ms-box-orient: horizontal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .nowrap  {
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .flex-item {
+        margin: 10px;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .presentation-eau {
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+
+    #competition2 {
+        background-color: white;
+        color: black;
+        font-size: large;
+        margin: 70px 209px 20px 1116px;
+    }
+
+    .img2 {
+        height: 480px;
+        width: 960px;
+        margin-right: 200px;
+    }
+
+    .flex-container2 {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        -ms-box-orient: horizontal;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .nowrap2  {
+        -webkit-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .flex-item2 {
+        margin: 10px;
+        color: white;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .presentation-space  {
+        margin-top: 50px;
+        margin-left: 100px;
+        text-align: justify;
+    }
+    .presentation-space2 {
+        margin-top:50px;
+        margin-left: 100px;
+        text-align: justify;
+        font-style: italic;
+    }
+
+    footer {
+        background-color: #000000;
+        color: #ffffff;
+        padding-top: 50px;
+
+    }
+    #copyright{
+        justify-content: flex-end;
+        margin-left: 50px;
+        font-size: medium;
+    }
+

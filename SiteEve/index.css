@@ -1,0 +1,162 @@
+header {
+    background-color: #000000;
+    display: flex;
+
+
+}
+
+#logo {
+    width: 175px;
+    height: 175px;
+    padding-left: 850px;
+}
+
+#log {
+    border-radius: 15px;
+    border: solid;
+    height: 35px;
+    width: 125px;
+    margin-left: 720px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0;
+    background-color: #000000;
+}
+
+nav a:hover{
+    border-bottom: 2px solid rgba(145, 65, 206, 0.91);
+
+}
+
+.inline {
+    flex-wrap:nowrap;
+    display:flex;
+
+}
+
+.left-align {
+    width: 450px;
+    height: 450px;
+    padding-left: 30px;
+    padding-top: 250px;
+    padding-right: 30px;
+    margin-bottom: 75px;
+
+}
+
+h1 {
+    padding-top: 200px;
+    font-size: xx-large;
+
+}
+
+.right-align {
+    text-align: justify;
+    padding: 30px;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    font-size: x-large;
+
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 50px;
+
+}
+#copyright{
+    justify-content: flex-end;
+    margin-left: 20px;
+
+}
+.container2 {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+
+}
+
+.button-insta {
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #fff;
+    background: radial-gradient(circle at 10% 280%,
+    #fdf497 0%,
+    #fdf497 17%,
+    #fd5949 45%,
+    #d6249f 70%,
+    #6801a3 95%);
+    margin-top: 0;
+    margin-left: 10px;
+
+}
+
+.twitter-button {
+    margin-bottom: 0;
+   padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    letter-spacing: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #fff;
+    background: radial-gradient(circle at 10% 280%,
+    #e7e6e1 0%,
+    rgba(102, 103, 105, 0.89) 17%,
+    #2c2c2a 45%,
+    #1c1b1c 70%,
+    #0d0d0e 95%);
+
+}
